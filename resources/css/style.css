@@ -145,6 +145,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+
+  background: url("../images/banner-landingpage.jpg") no-repeat center;
+  background-size: cover;
+  width: auto;
 }
 
 #sign-up-cta {
