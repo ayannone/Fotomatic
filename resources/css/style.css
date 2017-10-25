@@ -1,9 +1,19 @@
+
+/* **************** */
 /* Universal Styles */
+/* **************** */
 
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+
+
+/* ****************************************************************** */
+
+/****************/
+/* Main content */
+/****************/
 
 .main-content {
   position: relative;
@@ -28,13 +38,22 @@ html {
   display: block;
 }
 
+/* ****************************************** */
+/* Styling for screens with max-width = 760px */
+/* ****************************************** */
+
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
   }
 }
 
+
+/* ****************************************************************** */
+
+/* ****** */
 /* Header */
+/* ****** */
 
 header {
   position: fixed;
@@ -77,6 +96,10 @@ header .mobile {
   display: none;
 }
 
+/* ****************************************** */
+/* Styling for screens with max-width = 760px */
+/* ****************************************** */
+
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -110,7 +133,12 @@ header .mobile {
   }
 }
 
+
+/* ****************************************************************** */
+
+/* *************** */
 /* Sign Up Section */
+/* *************** */
 
 #sign-up-section {
   display: flex;
@@ -161,6 +189,11 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
+
+/* ****************************************** */
+/* Styling for screens with max-width = 760px */
+/* ****************************************** */
+
 @media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
@@ -193,6 +226,10 @@ header .mobile {
   }
 }
 
+/* ****************************************** */
+/* Styling for screens with max-width = 450px */
+/* ****************************************** */
+
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
@@ -207,7 +244,12 @@ header .mobile {
   }
 }
 
+
+/* ****************************************************************** */
+
+/* **************** */
 /* Features Section */
+/* **************** */
 
 #features-section {
   display: flex;
@@ -243,6 +285,10 @@ header .mobile {
   color: #4a4a4a;
 }
 
+/* ****************************************** */
+/* Styling for screens with max-width = 890px */
+/* ****************************************** */
+
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
@@ -256,6 +302,10 @@ header .mobile {
   }
 }
 
+/* ****************************************** */
+/* Styling for screens with max-width = 760px */
+/* ****************************************** */
+
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
@@ -268,7 +318,12 @@ header .mobile {
   }
 }
 
+
+/* ****************************************************************** */
+
+/* *************** */
 /* Filters Section */
+/* *************** */
 
 #filters-section {
   padding: 4rem 0;
@@ -297,6 +352,10 @@ header .mobile {
   max-width: 100%;
   padding: 0 1%;
 }
+
+/* ****************************************** */
+/* Styling for screens with max-width = 760px */
+/* ****************************************** */
 
 @media only screen and (max-width: 760px) {
   #filters-section {
@@ -328,7 +387,12 @@ header .mobile {
   }
 }
 
+
+/* ****************************************************************** */
+
+/* ************** */
 /* Quotes Section */
+/* ************** */
 
 #quotes-section {
   background-color: #f3f3f3;
@@ -351,6 +415,10 @@ header .mobile {
   height: 1.875rem;
 }
 
+/* ****************************************** */
+/* Styling for screens with max-width = 760px */
+/* ****************************************** */
+
 @media only screen and (max-width: 760px) {
   #quotes-section content {
     padding: 1.875rem .625rem;
@@ -368,7 +436,12 @@ header .mobile {
   }
 }
 
+
+/* ****************************************************************** */
+
+/* ****** */
 /* Footer */
+/* ****** */
 
 footer {
   background-color: #9b9b9b;
@@ -384,6 +457,10 @@ footer .content {
 footer .copyright {
   flex-grow: 1;
 }
+
+/* ****************************************** */
+/* Styling for screens with max-width = 760px */
+/* ****************************************** */
 
 @media only screen and (min-width: 760px) {
   footer .content {
