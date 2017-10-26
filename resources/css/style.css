@@ -420,13 +420,15 @@ header .mobile {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
-  padding-right: 1.875rem;
+#quotes-section .quote {
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
+
+  display: inline-block;
+  padding: 5rem 0 5rem 0;
 }
 
 #quotes-section quote-citation {
