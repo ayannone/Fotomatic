@@ -363,6 +363,12 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+
+  display: flex;
+}
+
+#filters-section .images-container .image-container img {
+  max-width: 100%;
 }
 
 /* ****************************************** */
