@@ -43,6 +43,14 @@ html {
 /* ****************************************** */
 
 @media only screen and (max-width: 760px) {
+
+}
+
+/* ****************************************** */
+/* Styling for screens with max-width = 450px */
+/* ****************************************** */
+
+@media only screen and (max-width: 450px) {
   .main-content {
     top: 2.5625rem;
   }
@@ -87,6 +95,10 @@ nav a {
   color: #4a4a4a;
 }
 
+header .desktop-tablet .button {
+  display: none;
+}
+
 header .icon {
   width: 1rem;
   padding-left: .75rem;
@@ -101,6 +113,14 @@ header .mobile {
 /* ****************************************** */
 
 @media only screen and (max-width: 760px) {
+
+  header .desktop-tablet .button {
+    display: inline-block;
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
 
 }
 
@@ -139,6 +159,7 @@ header .mobile {
     line-height: 1.6;
     color: white;
   }
+
 }
 
 
