@@ -242,6 +242,8 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+
+    margin: 0 auto;
   }
 
   #sign-up-cta .content {
