@@ -68,6 +68,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 5;
 }
 
 header .content {
@@ -481,6 +482,7 @@ header .mobile {
   padding: 5rem 0;
 
   display: flex;
+  justify-content: space-around;
 }
 
 #quotes-section .quote {
@@ -494,8 +496,6 @@ header .mobile {
 
 #quotes-section .quote-citation {
   height: 1.875rem;
-  margin-top: 0;
-  padding-top: 0;
 }
 
 /* ****************************************** */
