@@ -125,6 +125,42 @@ header .mobile {
 
 }
 
+/* **************************************************************** */
+/* Styling for screens with max-width = 686px and min-width = 451px */
+/* **************************************************************** */
+
+@media only screen and (max-width: 686px) and (min-width: 555px) {
+
+  nav li {
+    padding-left: 2rem;
+  }
+
+  nav a {
+    font-size: 0.875rem;
+  }
+
+}
+
+/* **************************************************************** */
+/* Styling for screens with max-width = 686px and min-width = 451px */
+/* **************************************************************** */
+
+@media only screen and (max-width: 554px) and (min-width: 451px) {
+
+  nav li {
+    padding-left: 0.9rem;
+  }
+
+  nav a {
+    font-size: 0.75rem;
+  }
+
+  header .desktop-tablet .button {
+    font-size: 0.75rem;
+  }
+
+}
+
 /* ****************************************** */
 /* Styling for screens with max-width = 450px */
 /* ****************************************** */
